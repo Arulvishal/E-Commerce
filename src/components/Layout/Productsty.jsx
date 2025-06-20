@@ -1,9 +1,8 @@
-import React from 'react'
 
 export default function ProductCard({ id, name, category, brand, img ,detail,price,discountPrice}) {
   return (
     <div key={id} className="rounded-xl border bg-white shadow-sm p-4 hover:shadow-md">
-    <img src={img} alt={name} className="h-40 w-full object-cover mb-3 rounded-md" />
+    <img src={img} alt={name} className="h-60 w-full object-cover mb-2 rounded-md" />
     <div>
       <h4 className="text-sm font-semibold mb-1">{name}</h4>
       <p className="text-xs text-gray-500">Brand: {brand}</p>

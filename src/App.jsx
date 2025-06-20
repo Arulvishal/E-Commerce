@@ -1,6 +1,6 @@
 import Home from "./components/Page/Home";
 import Navi from "./components/Navbar/Navi";
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import CategoriesList from "./components/Page/CategoriesList";
 import BrandsList from "./components/Page/BrandsList";
 import ProductsList from "./components/Page/ProductsList";

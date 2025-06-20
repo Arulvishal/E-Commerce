@@ -12,7 +12,7 @@ export default function Navi() {
 
   return (
     <>
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col ">
       <nav className="bg-white shadow-sm p-4 flex justify-between items-center shadow-blue-400">
          <div><p className="flex pt-3 pl-2"><FaShopify />PicknPay</p></div>
         <div className="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
@@ -33,16 +33,18 @@ export default function Navi() {
           </Link>
         </div>
     
-        <div className="flex items-center justify-center bg-gray-200">
+        <div className="flex items-center  justify-center ">
+          <div className=" m-2">
       <button
         onClick={()=>dispatch({type:"OPEN_LOGIN"})}
-        className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-blue-600"
+        className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-blue-600"
       >
         Login
       </button>
-    </div>
-    <div>
-          <button onClick={()=>dispatch({type:"OPEN_REGISTER"})} className="px-4 py-2 text-sm font-medium text-white bg-green-500 rounded-lg hover:bg-blue-700">
+      </div>
+   
+          <button onClick={()=>dispatch({type:"OPEN_REGISTER"})} 
+          className="px-5 py-2 text-sm font-medium text-white bg-green-500 rounded-lg hover:bg-blue-700">
             Register
           </button>
         </div>

@@ -1,6 +1,7 @@
 import ProductsWrapper from "../Layout/ProductsWrapper";
 import Product from "../../Data/product"
 import Trendsty from "../Layout/Trendsty";
+import TrendProduct from "../Layout/Trendcard";
 import { FcFlashOn } from 'react-icons/fc';
 import { Link } from 'react-router-dom'
 import categories from '../../Data/category'

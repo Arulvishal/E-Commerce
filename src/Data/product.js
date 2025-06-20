@@ -42,7 +42,7 @@ const Product= [
     {
       id: "E4",
       title: "iPhone 15 Pro",
-      img: "https://images.unsplash.com/photo-1695048137565-d4fd8a7dc08b",
+      img: "https://images.unsplash.com/photo-1702289613007-8b830e2520b0",
       brand_id: "BRD2",
       brand: "Apple",
       category_id: "CAT1",
@@ -187,7 +187,7 @@ const Product= [
     {
       id: "D6",
       title: "Wide Leg Trousers",
-      img: "https://images.unsplash.com/photo-1595341595379-cf0fad793b0a",
+      img: "https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg",
       brand_id: "BRD5",
       brand: "H&M",
       category_id: "CAT2",

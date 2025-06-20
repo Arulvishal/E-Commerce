@@ -1,26 +1,19 @@
-import { useRef, useState } from "react";
-
+import { useState } from "react";
 
 export default function Register() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const emailRef= useRef()
-  use
-
 
   const handleRegister = (e) => {
     e.preventDefault();
     console.log("Username:", username);
     console.log("Email:", email);
     console.log("Password:", password);
-    console.log(emailRef.current.value);
-    
-  
+
     setUsername("");
     setEmail("");
     setPassword("");
-  
   };
 
   return (
@@ -40,8 +33,7 @@ export default function Register() {
         <div>
           <label className="block text-sm mb-1">Email</label>
           <input
-          ref={emailRef}
-            type="email"
+            type="text"
             className="w-full border border-gray-300 px-3 py-2 rounded"
             placeholder="Enter your email"
             value={email}
@@ -68,4 +60,3 @@ export default function Register() {
     </div>
   );
 }
-
